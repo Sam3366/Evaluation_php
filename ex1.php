@@ -1,6 +1,6 @@
 <?php
-$heure = date("h");
-echo $heure;
+$heure = date("H");
+echo $heure . "<br>";
 if ($heure < 12) {
     echo "Bonne matinée";
 } 

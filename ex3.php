@@ -10,7 +10,6 @@ $mois = array(
 echo "<table 1px border solid black>";
 echo "<tr><th> Mois </th> <th> Nombre de jours </th></tr>";
 
-// foreach --> afficher les clefs et les valeurs d'un tableau
 foreach ($mois as $clef => $valeur)
 {
     echo ("<tr><td> $clef </td><td> $valeur </td></tr>");
