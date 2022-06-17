@@ -1,6 +1,8 @@
 <?php
-$heure = date("H");
-echo $heure . "<br>";
+date_default_timezone_set("Europe/Paris");
+$heure=date("H:m:s");
+echo "$heure<br>";
+
 if ($heure < 12) {
     echo "Bonne matinée";
 } 

@@ -15,7 +15,7 @@ echo "La factorielle de $n est $f";
 $n = 4;  
 $f = 1;
 $i = 1;
-while ($i <= $n)
+while ($i<$n)
 {
     $f = $f * $i;
     $i++;
